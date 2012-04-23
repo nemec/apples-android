@@ -1,4 +1,4 @@
-package ec.nem.cardsagainsthumanity.cards;
+package ec.nem.apples.cards;
 
 import java.io.Serializable;
 
@@ -7,43 +7,43 @@ import android.content.Context;
 import android.view.View;
 import android.widget.FrameLayout;
 import android.widget.TextView;
-import ec.nem.cardsagainsthumanity.R;
+import ec.nem.apples.R;
 
-public class Card implements Serializable{
+public class CardView implements Serializable{
 	
 	/**
 	 * 
 	 */
 	private static final long serialVersionUID = -3343812702904947639L;
 	private FrameLayout view;
-	private String title;
-	private String text;
+	private String name;
+	private String description;
 
-	public Card(Context context, String title, String text) {
-		this.title = title;
-		this.text = text;
+	public CardView(Context context, String title, String text) {
+		this.name = title;
+		this.description = text;
 		view = (FrameLayout)((Activity)context).getLayoutInflater().inflate(R.layout.cardview, null);
 		((TextView)view.findViewById(R.id.title)).setText(title);
 		((TextView)view.findViewById(R.id.text)).setText(text);
 	}
 	
-	public String getTitle(){
-		return title;
+	public String getName(){
+		return name;
 	}
 	
-	public String getText(){
-		return text;
+	public String getDescription(){
+		return description;
 	}
 	
 	public View getView(){
 		return view;
 	}
 	
-	/*public Card(Context context, AttributeSet attrs) {
+	/*public CardView(Context context, AttributeSet attrs) {
 		super(context, attrs);
 	}
 		 
-	public Card(Context context, AttributeSet attrs, int defStyle) {
+	public CardView(Context context, AttributeSet attrs, int defStyle) {
 		super(context, attrs, defStyle);
 	}*/
 }

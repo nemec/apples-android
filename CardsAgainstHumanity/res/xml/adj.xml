@@ -1,0 +1,2459 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cards>
+  <card>
+    <name>Absurd</name>
+    <description>ridiculous, senseless, foolish</description>
+  </card>
+  <card>
+    <name>Abundant</name>
+    <description>plentiful, ample, numerous</description>
+  </card>
+  <card>
+    <name>Addictive</name>
+    <description>obsessive, consuming, captivating</description>
+  </card>
+  <card>
+    <name>Adorable</name>
+    <description>lovable, charming, delightful</description>
+  </card>
+  <card>
+    <name>Adorable</name>
+    <description>lovable, cute</description>
+  </card>
+  <card>
+    <name>Aged</name>
+    <description>old, ancient, mature</description>
+  </card>
+  <card>
+    <name>Amazing</name>
+    <description>astonishing, surprising, wonderful</description>
+  </card>
+  <card>
+    <name>Amazing</name>
+    <description>surprising, wonderful</description>
+  </card>
+  <card>
+    <name>American</name>
+    <description>U.S. Citizen, Yankee, Apple Pie</description>
+  </card>
+  <card>
+    <name>Ancient</name>
+    <description>elderly, old, antique</description>
+  </card>
+  <card>
+    <name>Animated</name>
+    <description>lively, exuberant, spirited</description>
+  </card>
+  <card>
+    <name>Annoying</name>
+    <description>irritating, bothersome, teasing</description>
+  </card>
+  <card>
+    <name>Annoying</name>
+    <description>bothersome, irritating</description>
+  </card>
+  <card>
+    <name>Appetizing</name>
+    <description>appealing, tasty, flavorful</description>
+  </card>
+  <card>
+    <name>Armed &amp; Dangerous</name>
+    <description>hazardous, threatening, fortified</description>
+  </card>
+  <card>
+    <name>Arrogant</name>
+    <description>egotistical, overconfident, conceited</description>
+  </card>
+  <card>
+    <name>Attractive</name>
+    <description>alluring, engaging, good-looking</description>
+  </card>
+  <card>
+    <name>Attractive</name>
+    <description>pretty, good-looking</description>
+  </card>
+  <card>
+    <name>Awesome</name>
+    <description>amazing, remarkable, majestic</description>
+  </card>
+  <card>
+    <name>Awful</name>
+    <description>very bad, horrible</description>
+  </card>
+  <card>
+    <name>Awkward</name>
+    <description>clumsy, bumbling, uncoordinated</description>
+  </card>
+  <card>
+    <name>Bad</name>
+    <description>rotten, hurtful</description>
+  </card>
+  <card>
+    <name>Bashful</name>
+    <description>shy, timid, modest</description>
+  </card>
+  <card>
+    <name>Beautiful</name>
+    <description>pretty, lovely</description>
+  </card>
+  <card>
+    <name>Believable</name>
+    <description>trustworthy, credible, convincing</description>
+  </card>
+  <card>
+    <name>Best</name>
+    <description>greatest, finest</description>
+  </card>
+  <card>
+    <name>Big</name>
+    <description>large, huge</description>
+  </card>
+  <card>
+    <name>Big &amp; Tall</name>
+    <description>large, bulky, gigantic</description>
+  </card>
+  <card>
+    <name>Bitter</name>
+    <description>sour, tart</description>
+  </card>
+  <card>
+    <name>Black &amp; Blue</name>
+    <description>bruised, battered, rough</description>
+  </card>
+  <card>
+    <name>Black &amp; White</name>
+    <description>indisputable, distinct, written</description>
+  </card>
+  <card>
+    <name>Bogus</name>
+    <description>fraudulent, phony, insincere</description>
+  </card>
+  <card>
+    <name>Boisterous</name>
+    <description>loud, rambunctious, rowdy</description>
+  </card>
+  <card>
+    <name>Bold</name>
+    <description>daring, brave, courageous</description>
+  </card>
+  <card>
+    <name>Bold</name>
+    <description>daring, courageous</description>
+  </card>
+  <card>
+    <name>Boring</name>
+    <description>dull, tedious, monotonous</description>
+  </card>
+  <card>
+    <name>Boring</name>
+    <description>not interesting, dull</description>
+  </card>
+  <card>
+    <name>Brains &amp; Brawn</name>
+    <description>solid, strong, capable</description>
+  </card>
+  <card>
+    <name>Brave</name>
+    <description>fearless, courageous</description>
+  </card>
+  <card>
+    <name>Bright</name>
+    <description>brilliant, radiant, shiny</description>
+  </card>
+  <card>
+    <name>Bright</name>
+    <description>light, intelligent</description>
+  </card>
+  <card>
+    <name>Bright &amp; Shining</name>
+    <description>radiant, sparkling, gleaming</description>
+  </card>
+  <card>
+    <name>Brilliant</name>
+    <description>dazzling, gleaming, intelligent</description>
+  </card>
+  <card>
+    <name>Brutal</name>
+    <description>cruel, crude, harsh</description>
+  </card>
+  <card>
+    <name>Bumpy</name>
+    <description>lumpy, bouncy</description>
+  </card>
+  <card>
+    <name>Busy</name>
+    <description>occupied, meddlesome, engrossed</description>
+  </card>
+  <card>
+    <name>Busy</name>
+    <description>active, unavailable</description>
+  </card>
+  <card>
+    <name>Calm</name>
+    <description>peaceful, tranquil, placid</description>
+  </card>
+  <card>
+    <name>Calm</name>
+    <description>peaceful, still</description>
+  </card>
+  <card>
+    <name>Careful</name>
+    <description>cautious, thoughtful</description>
+  </card>
+  <card>
+    <name>Caring</name>
+    <description>concerned, interested</description>
+  </card>
+  <card>
+    <name>Casual</name>
+    <description>easygoing, blase, nonchalant</description>
+  </card>
+  <card>
+    <name>Charismatic</name>
+    <description>alluring, magnetic, charming</description>
+  </card>
+  <card>
+    <name>Charming</name>
+    <description>captivating, enchanting, fascinating</description>
+  </card>
+  <card>
+    <name>Charming</name>
+    <description>pleasant, polite</description>
+  </card>
+  <card>
+    <name>Cheerful</name>
+    <description>happy, lively</description>
+  </card>
+  <card>
+    <name>Cheesy</name>
+    <description>trashy, tawdry, far-fetched</description>
+  </card>
+  <card>
+    <name>Chewy</name>
+    <description>gummy, rubbery, stringy</description>
+  </card>
+  <card>
+    <name>Chewy</name>
+    <description>gummy, rubbery</description>
+  </card>
+  <card>
+    <name>Chubby</name>
+    <description>plump, round</description>
+  </card>
+  <card>
+    <name>Chunky</name>
+    <description>lumpy, chubby, bumpy</description>
+  </card>
+  <card>
+    <name>Classic</name>
+    <description>timeless, definitive, vintage</description>
+  </card>
+  <card>
+    <name>Clean</name>
+    <description>washed, pure, tidy</description>
+  </card>
+  <card>
+    <name>Clean</name>
+    <description>spotless, clear</description>
+  </card>
+  <card>
+    <name>Clear</name>
+    <description>understandable, uncluttered, transparent</description>
+  </card>
+  <card>
+    <name>Clever</name>
+    <description>intelligent, ingenious, witty</description>
+  </card>
+  <card>
+    <name>Clueless</name>
+    <description>unaware, oblivious, ignorant</description>
+  </card>
+  <card>
+    <name>Clumsy</name>
+    <description>awkward, bumbling, uncoordinated</description>
+  </card>
+  <card>
+    <name>Clumsy</name>
+    <description>awkward, not graceful</description>
+  </card>
+  <card>
+    <name>Cold</name>
+    <description>chilly, icy, aloof</description>
+  </card>
+  <card>
+    <name>Cold</name>
+    <description>cool, chilly</description>
+  </card>
+  <card>
+    <name>Colorful</name>
+    <description>vivid, brilliant, kaleidoscopic</description>
+  </card>
+  <card>
+    <name>Colorful</name>
+    <description>full of color, bright</description>
+  </card>
+  <card>
+    <name>Comfortable</name>
+    <description>cozy, snug, restful</description>
+  </card>
+  <card>
+    <name>Comfortable</name>
+    <description>cozy, pleasant</description>
+  </card>
+  <card>
+    <name>Comical</name>
+    <description>funny, hilarious, amusing</description>
+  </card>
+  <card>
+    <name>Complicated</name>
+    <description>difficult, complex, involved</description>
+  </card>
+  <card>
+    <name>Conceited</name>
+    <description>vain, smug, self-centered</description>
+  </card>
+  <card>
+    <name>Confused</name>
+    <description>muddled, bewildered, perplexed</description>
+  </card>
+  <card>
+    <name>Confusing</name>
+    <description>puzzling, weird</description>
+  </card>
+  <card>
+    <name>Controversial</name>
+    <description>contentious, disputable, debatable</description>
+  </card>
+  <card>
+    <name>Cool</name>
+    <description>chilly, hip, cold-blooded</description>
+  </card>
+  <card>
+    <name>Cool</name>
+    <description>not hot, chilled</description>
+  </card>
+  <card>
+    <name>Cool &amp; Collected</name>
+    <description>controlled, composed, restrained</description>
+  </card>
+  <card>
+    <name>Corrupt</name>
+    <description>dishonest, underhanded, shady</description>
+  </card>
+  <card>
+    <name>Cosmic</name>
+    <description>limitless, planetary, far out</description>
+  </card>
+  <card>
+    <name>Cosmopolitan</name>
+    <description>sophisticated, urbane, well-informed [Party Set]</description>
+  </card>
+  <card>
+    <name>Costly</name>
+    <description>expensive, valuable</description>
+  </card>
+  <card>
+    <name>Courageous</name>
+    <description>brave, gallant, dauntless</description>
+  </card>
+  <card>
+    <name>Courageous</name>
+    <description>brave, bold</description>
+  </card>
+  <card>
+    <name>Cowardly</name>
+    <description>fearful, afraid, spineless</description>
+  </card>
+  <card>
+    <name>Cozy</name>
+    <description>comfortable, snug, warm</description>
+  </card>
+  <card>
+    <name>Cozy</name>
+    <description>comfortable, warm</description>
+  </card>
+  <card>
+    <name>Cranky</name>
+    <description>crabby, cantankerous, grouchy</description>
+  </card>
+  <card>
+    <name>Crazed</name>
+    <description>insane, wild, deranged</description>
+  </card>
+  <card>
+    <name>Crazy</name>
+    <description>insane, bizarre, wacky</description>
+  </card>
+  <card>
+    <name>Crazy</name>
+    <description>silly, foolish</description>
+  </card>
+  <card>
+    <name>Creative</name>
+    <description>imaginative, artistic, original</description>
+  </card>
+  <card>
+    <name>Creepy</name>
+    <description>frightening, slithering, scary</description>
+  </card>
+  <card>
+    <name>Creepy</name>
+    <description>spooky, scary</description>
+  </card>
+  <card>
+    <name>Creepy &amp; Crawly</name>
+    <description>frightening, ghastly, icky</description>
+  </card>
+  <card>
+    <name>Crisp</name>
+    <description>brittle, brisk, fresh</description>
+  </card>
+  <card>
+    <name>Crisp &amp; Delicious</name>
+    <description>tasty, crunchy, savory</description>
+  </card>
+  <card>
+    <name>Crooked</name>
+    <description>bent, not straight</description>
+  </card>
+  <card>
+    <name>Cruel</name>
+    <description>mean, harsh, merciless [Party Set]</description>
+  </card>
+  <card>
+    <name>Cruel &amp; Unusual</name>
+    <description>barbaric, merciless, unwarranted</description>
+  </card>
+  <card>
+    <name>Crunchy</name>
+    <description>crispy, crackling</description>
+  </card>
+  <card>
+    <name>Cuddly</name>
+    <description>loving, tender, huggable</description>
+  </card>
+  <card>
+    <name>Cuddly</name>
+    <description>cozy, soft</description>
+  </card>
+  <card>
+    <name>Curved</name>
+    <description>bent, rounded</description>
+  </card>
+  <card>
+    <name>Cut &amp; Dried</name>
+    <description>settled, obvious, indisputable</description>
+  </card>
+  <card>
+    <name>Cute</name>
+    <description>pretty, perky, delightful</description>
+  </card>
+  <card>
+    <name>Cute</name>
+    <description>pretty, good-looking</description>
+  </card>
+  <card>
+    <name>Cute &amp; Cuddly</name>
+    <description>adorable, precious, huggable</description>
+  </card>
+  <card>
+    <name>Dainty</name>
+    <description>delicate, fragile, thin</description>
+  </card>
+  <card>
+    <name>Dainty</name>
+    <description>delicate, elegant</description>
+  </card>
+  <card>
+    <name>Dangerous</name>
+    <description>risky, chancy, hazardous</description>
+  </card>
+  <card>
+    <name>Dangerous</name>
+    <description>unsafe, risky</description>
+  </card>
+  <card>
+    <name>Daring</name>
+    <description>brave, bold</description>
+  </card>
+  <card>
+    <name>Dark</name>
+    <description>unlit, morbid, sinister</description>
+  </card>
+  <card>
+    <name>Dark</name>
+    <description>without light, nearly black</description>
+  </card>
+  <card>
+    <name>Dashing</name>
+    <description>gallant, bold, elegant</description>
+  </card>
+  <card>
+    <name>Dazed &amp; Confused</name>
+    <description>stunned, bewildered, disoriented</description>
+  </card>
+  <card>
+    <name>Dead</name>
+    <description>deceased, expired, unresponsive</description>
+  </card>
+  <card>
+    <name>Dead &amp; Gone</name>
+    <description>deceased, defunct, passe</description>
+  </card>
+  <card>
+    <name>Deadly</name>
+    <description>fatal, lethal, murderous</description>
+  </card>
+  <card>
+    <name>Delicate</name>
+    <description>dainty, tender, elegant</description>
+  </card>
+  <card>
+    <name>Delicate</name>
+    <description>breakable, dainty</description>
+  </card>
+  <card>
+    <name>Delicious</name>
+    <description>tasty, pleasing, appetizing</description>
+  </card>
+  <card>
+    <name>Delicious</name>
+    <description>tasty, pleasing</description>
+  </card>
+  <card>
+    <name>Delightful</name>
+    <description>pleasing, enjoyable, charming</description>
+  </card>
+  <card>
+    <name>Demanding</name>
+    <description>difficult, exacting, bothersome</description>
+  </card>
+  <card>
+    <name>Depressing</name>
+    <description>dismal, gloomy, sad</description>
+  </card>
+  <card>
+    <name>Desperate</name>
+    <description>frantic, headlong, reckless</description>
+  </card>
+  <card>
+    <name>Devious</name>
+    <description>sneaky, shifty, tricky</description>
+  </card>
+  <card>
+    <name>Difficult</name>
+    <description>complicated, hard</description>
+  </card>
+  <card>
+    <name>Dignified</name>
+    <description>stately, honorable, distinguished</description>
+  </card>
+  <card>
+    <name>Dirty</name>
+    <description>unclean, soiled, impure</description>
+  </card>
+  <card>
+    <name>Dirty</name>
+    <description>unclean, filthy</description>
+  </card>
+  <card>
+    <name>Disgusting</name>
+    <description>sickening, horrible</description>
+  </card>
+  <card>
+    <name>Distinguished</name>
+    <description>dignified, extraordinary, acclaimed</description>
+  </card>
+  <card>
+    <name>Disturbing</name>
+    <description>unsettling, troubling, worrisome</description>
+  </card>
+  <card>
+    <name>Down &amp; Dirty</name>
+    <description>nasty, vicious, unscrupulous</description>
+  </card>
+  <card>
+    <name>Down &amp; Out</name>
+    <description>destitute, impoverished, penniless</description>
+  </card>
+  <card>
+    <name>Dramatic</name>
+    <description>exciting, sensational, theatrical</description>
+  </card>
+  <card>
+    <name>Dreamy</name>
+    <description>fanciful, whimsical, heavenly</description>
+  </card>
+  <card>
+    <name>Drunk &amp; Disorderly</name>
+    <description>intoxicated, unruly, rowdy</description>
+  </card>
+  <card>
+    <name>Dull</name>
+    <description>boring, stupid, blunt [Party Set]</description>
+  </card>
+  <card>
+    <name>Dull</name>
+    <description>not sharp, plain</description>
+  </card>
+  <card>
+    <name>Dumb</name>
+    <description>silent, not smart</description>
+  </card>
+  <card>
+    <name>Dumb &amp; Dumber</name>
+    <description>stupid, dull, rediculous</description>
+  </card>
+  <card>
+    <name>Dysfunctional</name>
+    <description>impaired, damaged, maladjusted</description>
+  </card>
+  <card>
+    <name>Earthy</name>
+    <description>unrefined, natural, crude</description>
+  </card>
+  <card>
+    <name>Easy</name>
+    <description>effortless, gentle, promiscuous</description>
+  </card>
+  <card>
+    <name>Easy</name>
+    <description>simple, not hard</description>
+  </card>
+  <card>
+    <name>Eccentric</name>
+    <description>peculiar, odd, bizarre</description>
+  </card>
+  <card>
+    <name>Edgy</name>
+    <description>irritable, nervous, tense</description>
+  </card>
+  <card>
+    <name>Elderly</name>
+    <description>old, aged</description>
+  </card>
+  <card>
+    <name>Elitist</name>
+    <description>snobbish, arrogant, smug</description>
+  </card>
+  <card>
+    <name>Emotional</name>
+    <description>passionate, moving, volatile</description>
+  </card>
+  <card>
+    <name>Enchanting</name>
+    <description>captivating, charming, spell-binding</description>
+  </card>
+  <card>
+    <name>Endangered</name>
+    <description>at risk, threatened, unprotected</description>
+  </card>
+  <card>
+    <name>Energetic</name>
+    <description>active, vigorous, forceful</description>
+  </card>
+  <card>
+    <name>Energetic</name>
+    <description>active, lively</description>
+  </card>
+  <card>
+    <name>Enjoyable</name>
+    <description>pleasurable, entertaining, fun</description>
+  </card>
+  <card>
+    <name>Enjoyable</name>
+    <description>pleasant, fun</description>
+  </card>
+  <card>
+    <name>Enormous</name>
+    <description>large, huge, gigantic</description>
+  </card>
+  <card>
+    <name>Enormous</name>
+    <description>huge, gigantic</description>
+  </card>
+  <card>
+    <name>Entertaining</name>
+    <description>amusing, festive, enjoyable</description>
+  </card>
+  <card>
+    <name>Entertaining</name>
+    <description>interesting, fun</description>
+  </card>
+  <card>
+    <name>Eternal</name>
+    <description>timeless, immortal, perpetual</description>
+  </card>
+  <card>
+    <name>European</name>
+    <description>of Europe, from Europe, about Europe</description>
+  </card>
+  <card>
+    <name>Evil</name>
+    <description>wicked, corrupt, depraved</description>
+  </card>
+  <card>
+    <name>Excellent</name>
+    <description>very good, outstanding</description>
+  </card>
+  <card>
+    <name>Exciting</name>
+    <description>thrilling, breathtaking, arousing</description>
+  </card>
+  <card>
+    <name>Exciting</name>
+    <description>thrilling, interesting</description>
+  </card>
+  <card>
+    <name>Exhausting</name>
+    <description>weakening, tiring, draining</description>
+  </card>
+  <card>
+    <name>Expensive</name>
+    <description>costly, valuable, exorbitant</description>
+  </card>
+  <card>
+    <name>Expensive</name>
+    <description>costly, high priced</description>
+  </card>
+  <card>
+    <name>Explosive</name>
+    <description>bursting, blasting, dangerous</description>
+  </card>
+  <card>
+    <name>Exquisite</name>
+    <description>excellent, refined, flawless</description>
+  </card>
+  <card>
+    <name>Extreme</name>
+    <description>exceptional, superlative, radical</description>
+  </card>
+  <card>
+    <name>Fabulous</name>
+    <description>marvelous, wonderful, incredible</description>
+  </card>
+  <card>
+    <name>Fake</name>
+    <description>unreal, counterfeit, deceptive</description>
+  </card>
+  <card>
+    <name>Famous</name>
+    <description>well-known, celebrated, distinguished</description>
+  </card>
+  <card>
+    <name>Famous</name>
+    <description>well-known, important</description>
+  </card>
+  <card>
+    <name>Fancy</name>
+    <description>showy, ornate, decorated</description>
+  </card>
+  <card>
+    <name>Fancy</name>
+    <description>decorated, elegant</description>
+  </card>
+  <card>
+    <name>Fantastic</name>
+    <description>awesome, outrageous, imaginary</description>
+  </card>
+  <card>
+    <name>Fascinating</name>
+    <description>interesting, attractive</description>
+  </card>
+  <card>
+    <name>Fashionable</name>
+    <description>stylish, dashing, current</description>
+  </card>
+  <card>
+    <name>Fast</name>
+    <description>swift, quick, rapid</description>
+  </card>
+  <card>
+    <name>Fast</name>
+    <description>speedy, quick</description>
+  </card>
+  <card>
+    <name>Fast &amp; Furious</name>
+    <description>wild, reckless, breakneck</description>
+  </card>
+  <card>
+    <name>Fast &amp; Loose</name>
+    <description>deceitful, fraudulent, reckless</description>
+  </card>
+  <card>
+    <name>Fat</name>
+    <description>plump, thick</description>
+  </card>
+  <card>
+    <name>Fat &amp; Happy</name>
+    <description>content, satisfied, assured</description>
+  </card>
+  <card>
+    <name>Favorite</name>
+    <description>preferred, desired</description>
+  </card>
+  <card>
+    <name>Fearful</name>
+    <description>scared, worried</description>
+  </card>
+  <card>
+    <name>Feminine</name>
+    <description>womanly, ladylike, unmanly</description>
+  </card>
+  <card>
+    <name>Filthy</name>
+    <description>dirty, foul, unclean</description>
+  </card>
+  <card>
+    <name>Fine</name>
+    <description>worthy, delicate, all right</description>
+  </card>
+  <card>
+    <name>Flaky</name>
+    <description>foolish, eccentric, crispy</description>
+  </card>
+  <card>
+    <name>Flamboyant</name>
+    <description>ornate, pompous, extravagant</description>
+  </card>
+  <card>
+    <name>Flat</name>
+    <description>smooth, level</description>
+  </card>
+  <card>
+    <name>Flavorful</name>
+    <description>tasty, savory, pungent</description>
+  </card>
+  <card>
+    <name>Flavorful</name>
+    <description>tasty, appetizing</description>
+  </card>
+  <card>
+    <name>Flawed</name>
+    <description>imperfect, defective, unsound</description>
+  </card>
+  <card>
+    <name>Flirtatious</name>
+    <description>brazen, saucy, forward</description>
+  </card>
+  <card>
+    <name>Foot Loose &amp; Fancy Free</name>
+    <description>lighthearted, carefree, spontaneous</description>
+  </card>
+  <card>
+    <name>Foreign</name>
+    <description>alien, unfamiliar, exotic</description>
+  </card>
+  <card>
+    <name>Fragile</name>
+    <description>delicate, frail, breakable</description>
+  </card>
+  <card>
+    <name>Fragile</name>
+    <description>delicate, weak</description>
+  </card>
+  <card>
+    <name>Fragrant</name>
+    <description>aromatic, odorous, perfumed</description>
+  </card>
+  <card>
+    <name>Frail</name>
+    <description>fragile, weak</description>
+  </card>
+  <card>
+    <name>Frazzled</name>
+    <description>exhausted, frayed, worn</description>
+  </card>
+  <card>
+    <name>Fresh</name>
+    <description>new, original, good</description>
+  </card>
+  <card>
+    <name>Fresh</name>
+    <description>new, clean</description>
+  </card>
+  <card>
+    <name>Friendly</name>
+    <description>affectionate, comforting, welcoming</description>
+  </card>
+  <card>
+    <name>Friendly</name>
+    <description>kind, nice</description>
+  </card>
+  <card>
+    <name>Frightening</name>
+    <description>scary, horrifying, awesome</description>
+  </card>
+  <card>
+    <name>Frightening</name>
+    <description>scary, horrifying</description>
+  </card>
+  <card>
+    <name>Frivolous</name>
+    <description>trivial, silly, shallow [Party Set]</description>
+  </card>
+  <card>
+    <name>Funky</name>
+    <description>groovy, psychedelic, hip</description>
+  </card>
+  <card>
+    <name>Fun</name>
+    <description>enjoyable, playful, amusing</description>
+  </card>
+  <card>
+    <name>Fun</name>
+    <description>enjoyable, playful</description>
+  </card>
+  <card>
+    <name>Funny</name>
+    <description>amusing, comic, odd</description>
+  </card>
+  <card>
+    <name>Funny</name>
+    <description>silly, goofy</description>
+  </card>
+  <card>
+    <name>Furious</name>
+    <description>angry, raging, wild</description>
+  </card>
+  <card>
+    <name>Furry</name>
+    <description>hairy, fuzzy</description>
+  </card>
+  <card>
+    <name>Fuzzy</name>
+    <description>downy, unclear, furry</description>
+  </card>
+  <card>
+    <name>Fuzzy</name>
+    <description>furry, fuzz-covered</description>
+  </card>
+  <card>
+    <name>Gentle</name>
+    <description>tame, mild</description>
+  </card>
+  <card>
+    <name>Gigantic</name>
+    <description>huge, large</description>
+  </card>
+  <card>
+    <name>Glamorous</name>
+    <description>beautiful, dazzling, stylish</description>
+  </card>
+  <card>
+    <name>Glitzy</name>
+    <description>flashy, showy, gaudy</description>
+  </card>
+  <card>
+    <name>Global</name>
+    <description>world-wide, spherical, universal</description>
+  </card>
+  <card>
+    <name>Gloomy</name>
+    <description>dreary, depressing, sullen</description>
+  </card>
+  <card>
+    <name>Glorious</name>
+    <description>magnificent, delightful, splendid</description>
+  </card>
+  <card>
+    <name>Good</name>
+    <description>not bad, fine</description>
+  </card>
+  <card>
+    <name>Goody-Goody</name>
+    <description>sweet, well-behaved, virtuous</description>
+  </card>
+  <card>
+    <name>Goofy</name>
+    <description>silly, foolish, giddy</description>
+  </card>
+  <card>
+    <name>Goofy</name>
+    <description>silly, weird</description>
+  </card>
+  <card>
+    <name>Gorgeous</name>
+    <description>beautiful, stunning, magnificent</description>
+  </card>
+  <card>
+    <name>Gorgeous</name>
+    <description>beautiful, dazzling</description>
+  </card>
+  <card>
+    <name>Graceful</name>
+    <description>elegant, supple, limber</description>
+  </card>
+  <card>
+    <name>Graceful</name>
+    <description>elegant, flowing</description>
+  </card>
+  <card>
+    <name>Great</name>
+    <description>very good, important</description>
+  </card>
+  <card>
+    <name>Grueling</name>
+    <description>demanding, exhausting, strenuous</description>
+  </card>
+  <card>
+    <name>Gruesome</name>
+    <description>ghastly, hideous, grisly</description>
+  </card>
+  <card>
+    <name>Grungy</name>
+    <description>dirty, shabby, seedy</description>
+  </card>
+  <card>
+    <name>Hairy</name>
+    <description>not bald, furry</description>
+  </card>
+  <card>
+    <name>Hale &amp; Hearty</name>
+    <description>healthy, vigorous, robust</description>
+  </card>
+  <card>
+    <name>Handsome</name>
+    <description>attractive, elegant, fine</description>
+  </card>
+  <card>
+    <name>Handy</name>
+    <description>convenient, available, capable</description>
+  </card>
+  <card>
+    <name>Handy</name>
+    <description>useful, helpful</description>
+  </card>
+  <card>
+    <name>Happy</name>
+    <description>glad, jolly</description>
+  </card>
+  <card>
+    <name>Hard</name>
+    <description>not soft, difficult</description>
+  </card>
+  <card>
+    <name>Hardworking</name>
+    <description>industrious, diligent, busy</description>
+  </card>
+  <card>
+    <name>Hardworking</name>
+    <description>industrious, careful</description>
+  </card>
+  <card>
+    <name>Harmful</name>
+    <description>hurtful, unhealthy, damaging</description>
+  </card>
+  <card>
+    <name>Harmful</name>
+    <description>hurtful, damaging</description>
+  </card>
+  <card>
+    <name>Harsh</name>
+    <description>severe, glaring, brutal</description>
+  </card>
+  <card>
+    <name>Haunting</name>
+    <description>unforgettable, bewitching, unearthly</description>
+  </card>
+  <card>
+    <name>Hazardous</name>
+    <description>risky, dangerous, perilous</description>
+  </card>
+  <card>
+    <name>Healthy</name>
+    <description>hearty, robust, wholesome</description>
+  </card>
+  <card>
+    <name>Healthy</name>
+    <description>not sick, well</description>
+  </card>
+  <card>
+    <name>Heartless</name>
+    <description>insensitive, cruel, uncaring</description>
+  </card>
+  <card>
+    <name>Heavy</name>
+    <description>not light, bulky</description>
+  </card>
+  <card>
+    <name>Helpful</name>
+    <description>useful, assisting</description>
+  </card>
+  <card>
+    <name>High &amp; Dry</name>
+    <description>abandoned, alone, helpless</description>
+  </card>
+  <card>
+    <name>High &amp; Low</name>
+    <description>everywhere, universally, all over</description>
+  </card>
+  <card>
+    <name>High &amp; Mighty</name>
+    <description>arrogant, conceited, vain</description>
+  </card>
+  <card>
+    <name>Hilarious</name>
+    <description>funny, witty, amusing</description>
+  </card>
+  <card>
+    <name>Hit &amp; Miss</name>
+    <description>sporadic, unreliable, erratic</description>
+  </card>
+  <card>
+    <name>Honest</name>
+    <description>trustworthy, truthful</description>
+  </card>
+  <card>
+    <name>Honorable</name>
+    <description>honest, just, virtuous</description>
+  </card>
+  <card>
+    <name>Hopeless</name>
+    <description>pessimistic, desperate, downhearted</description>
+  </card>
+  <card>
+    <name>Horrible</name>
+    <description>frightening, awful</description>
+  </card>
+  <card>
+    <name>Horrifying</name>
+    <description>offensive, abominable, disgusting</description>
+  </card>
+  <card>
+    <name>Hostile</name>
+    <description>antagonistic, aggressive, warlike</description>
+  </card>
+  <card>
+    <name>Hot</name>
+    <description>blazing, heated, spicy</description>
+  </card>
+  <card>
+    <name>Hot</name>
+    <description>very warm, heated</description>
+  </card>
+  <card>
+    <name>Hot &amp; Bothered</name>
+    <description>annoyed, irritated, provoked</description>
+  </card>
+  <card>
+    <name>Hot &amp; Cold</name>
+    <description>ambivalent, indecisive, varying</description>
+  </card>
+  <card>
+    <name>Hot &amp; Heavy</name>
+    <description>passionate, momentous, serious</description>
+  </card>
+  <card>
+    <name>Hot &amp; Muggy</name>
+    <description>sultry, humid, oppressive</description>
+  </card>
+  <card>
+    <name>Hot &amp; Spicy</name>
+    <description>zesty, stimulating, pungent</description>
+  </card>
+  <card>
+    <name>Hot &amp; Sweaty</name>
+    <description>sweltering, intense, perspiring</description>
+  </card>
+  <card>
+    <name>Huge</name>
+    <description>gigantic, immense, important</description>
+  </card>
+  <card>
+    <name>Huge</name>
+    <description>big, large</description>
+  </card>
+  <card>
+    <name>Humorous</name>
+    <description>funny, amusing, comical</description>
+  </card>
+  <card>
+    <name>Icky</name>
+    <description>sickening, disgusting, repulsive</description>
+  </card>
+  <card>
+    <name>Ideal</name>
+    <description>perfect, flawless, model</description>
+  </card>
+  <card>
+    <name>Idiotic</name>
+    <description>foolish, dumb, moronic</description>
+  </card>
+  <card>
+    <name>Important</name>
+    <description>significant, substantial, momentous</description>
+  </card>
+  <card>
+    <name>Important</name>
+    <description>valuable, worthwhile</description>
+  </card>
+  <card>
+    <name>Industrious</name>
+    <description>diligent, busy, hard-working</description>
+  </card>
+  <card>
+    <name>Influential</name>
+    <description>powerful, prominent, important</description>
+  </card>
+  <card>
+    <name>Innocent</name>
+    <description>guiltless, pure, naive</description>
+  </card>
+  <card>
+    <name>Insane</name>
+    <description>psychotic, deranged, mad</description>
+  </card>
+  <card>
+    <name>Inspirational</name>
+    <description>exhilarating, inspiring, stimulating</description>
+  </card>
+  <card>
+    <name>Insulting</name>
+    <description>offending, discourteous, rude</description>
+  </card>
+  <card>
+    <name>Intelligent</name>
+    <description>bright, smart, brainy</description>
+  </card>
+  <card>
+    <name>Intense</name>
+    <description>extreme, passionate, strained</description>
+  </card>
+  <card>
+    <name>Interesting</name>
+    <description>fascinating, exciting</description>
+  </card>
+  <card>
+    <name>Irresistible</name>
+    <description>overpowering, overwhelming, compelling</description>
+  </card>
+  <card>
+    <name>Irritating</name>
+    <description>annoying, troublesome, provoking</description>
+  </card>
+  <card>
+    <name>Jolly</name>
+    <description>cheerful, joyous, merry</description>
+  </card>
+  <card>
+    <name>Jolly</name>
+    <description>cheerful, fun</description>
+  </card>
+  <card>
+    <name>Juicy</name>
+    <description>drippy, luscious, tantalizing</description>
+  </card>
+  <card>
+    <name>Juicy</name>
+    <description>wet, squishy</description>
+  </card>
+  <card>
+    <name>Kind</name>
+    <description>nice, helpful</description>
+  </card>
+  <card>
+    <name>Large</name>
+    <description>big, not small</description>
+  </card>
+  <card>
+    <name>Lazy</name>
+    <description>lifeless, apathetic, weary</description>
+  </card>
+  <card>
+    <name>Lazy</name>
+    <description>slow, careless</description>
+  </card>
+  <card>
+    <name>Lean &amp; Mean</name>
+    <description>vigorous, fit, efficient</description>
+  </card>
+  <card>
+    <name>Legendary</name>
+    <description>famous, distinctive, prominent</description>
+  </card>
+  <card>
+    <name>Lewd &amp; Lascivious</name>
+    <description>lustful, obscene, indecent</description>
+  </card>
+  <card>
+    <name>Light</name>
+    <description>not dark, not heavy</description>
+  </card>
+  <card>
+    <name>Light &amp; Fluffy</name>
+    <description>billowy, airy, soft</description>
+  </card>
+  <card>
+    <name>Little</name>
+    <description>small, tiny</description>
+  </card>
+  <card>
+    <name>Lively</name>
+    <description>cheerful, active</description>
+  </card>
+  <card>
+    <name>Long</name>
+    <description>not short, stretched</description>
+  </card>
+  <card>
+    <name>Long &amp; Lean</name>
+    <description>slender, lanky, wiry</description>
+  </card>
+  <card>
+    <name>Loud</name>
+    <description>noisy, boisterous, deafening</description>
+  </card>
+  <card>
+    <name>Loud</name>
+    <description>noisy, not quiet</description>
+  </card>
+  <card>
+    <name>Loud &amp; Clear</name>
+    <description>definite, explicit, unequivocal</description>
+  </card>
+  <card>
+    <name>Lovable</name>
+    <description>adorable, endearing, cuddly</description>
+  </card>
+  <card>
+    <name>Lovable</name>
+    <description>adorable, enchanting</description>
+  </card>
+  <card>
+    <name>Loving</name>
+    <description>caring, kind</description>
+  </card>
+  <card>
+    <name>Lucky</name>
+    <description>fortunate, serendipitous, favored</description>
+  </card>
+  <card>
+    <name>Lucky</name>
+    <description>fortunate, favored</description>
+  </card>
+  <card>
+    <name>Lumpy</name>
+    <description>bumpy, clumpy</description>
+  </card>
+  <card>
+    <name>Luscious</name>
+    <description>delicious, savory, juicy</description>
+  </card>
+  <card>
+    <name>Luxurious</name>
+    <description>opulent, lavish, sumptuous</description>
+  </card>
+  <card>
+    <name>Magical</name>
+    <description>enchanting, miraculous, marvelous</description>
+  </card>
+  <card>
+    <name>Magical</name>
+    <description>mysterious, delightful</description>
+  </card>
+  <card>
+    <name>Manly</name>
+    <description>masculine, virile, strong</description>
+  </card>
+  <card>
+    <name>Masculine</name>
+    <description>male, manly, virile</description>
+  </card>
+  <card>
+    <name>Mean</name>
+    <description>malicious, ill-tempered, petty</description>
+  </card>
+  <card>
+    <name>Mean</name>
+    <description>unkind, nasty</description>
+  </card>
+  <card>
+    <name>Meek</name>
+    <description>shy, mild, timid</description>
+  </card>
+  <card>
+    <name>Meek &amp; Mild</name>
+    <description>timid, docile, gentle</description>
+  </card>
+  <card>
+    <name>Melodramatic</name>
+    <description>theatrical, sensational, showy [Party Set]</description>
+  </card>
+  <card>
+    <name>Mesmerizing</name>
+    <description>fascinating, hypnotizing, charming</description>
+  </card>
+  <card>
+    <name>Messy</name>
+    <description>sloppy, disorderly, unclean</description>
+  </card>
+  <card>
+    <name>Messy</name>
+    <description>sloppy, dirty</description>
+  </card>
+  <card>
+    <name>Mischievous</name>
+    <description>naughty, prankish, sly</description>
+  </card>
+  <card>
+    <name>Miserable</name>
+    <description>wretched, pitiful, forlorn</description>
+  </card>
+  <card>
+    <name>Miserable</name>
+    <description>unhappy, sorrowful</description>
+  </card>
+  <card>
+    <name>Misunderstood</name>
+    <description>not grasped, not learned, not absorbed</description>
+  </card>
+  <card>
+    <name>Modern</name>
+    <description>contemporary, fashionable, trendy</description>
+  </card>
+  <card>
+    <name>Mushy</name>
+    <description>soft, squishy</description>
+  </card>
+  <card>
+    <name>Mysterious</name>
+    <description>secretive, puzzling, strange</description>
+  </card>
+  <card>
+    <name>Mysterious</name>
+    <description>strange, secretive</description>
+  </card>
+  <card>
+    <name>Mystical</name>
+    <description>spiritual, secretive, esoteric</description>
+  </card>
+  <card>
+    <name>Naive</name>
+    <description>unsophisticated, childlike, simple</description>
+  </card>
+  <card>
+    <name>Nasty</name>
+    <description>mean, inclement, offensive</description>
+  </card>
+  <card>
+    <name>Nasty</name>
+    <description>mean, wicked</description>
+  </card>
+  <card>
+    <name>Natural</name>
+    <description>pure, simple, unadorned</description>
+  </card>
+  <card>
+    <name>Natural</name>
+    <description>normal, pure</description>
+  </card>
+  <card>
+    <name>Naughty &amp; Nice</name>
+    <description>impish, mischievous, playful</description>
+  </card>
+  <card>
+    <name>Neat</name>
+    <description>tidy, orderly, cool</description>
+  </card>
+  <card>
+    <name>Neat</name>
+    <description>clean, orderly</description>
+  </card>
+  <card>
+    <name>Neat &amp; Clean</name>
+    <description>spotless, tidy, shipshape</description>
+  </card>
+  <card>
+    <name>Neglected</name>
+    <description>ignored, disregarded, rejected</description>
+  </card>
+  <card>
+    <name>Nerdy</name>
+    <description>unhip, uncool, dorky</description>
+  </card>
+  <card>
+    <name>New</name>
+    <description>fresh, modern</description>
+  </card>
+  <card>
+    <name>New &amp; Improved</name>
+    <description>upgraded, enhanced, revised</description>
+  </card>
+  <card>
+    <name>Nice</name>
+    <description>pleasant, kind</description>
+  </card>
+  <card>
+    <name>Noisy</name>
+    <description>loud, not quiet</description>
+  </card>
+  <card>
+    <name>Normal</name>
+    <description>usual, common, ordinary</description>
+  </card>
+  <card>
+    <name>Nutty</name>
+    <description>kooky, foolish, nutlike</description>
+  </card>
+  <card>
+    <name>Obnoxious</name>
+    <description>offensive, repulsive, annoying</description>
+  </card>
+  <card>
+    <name>Obscene</name>
+    <description>offensive, indecent, lewd</description>
+  </card>
+  <card>
+    <name>Odd</name>
+    <description>different, eccentric, bizarre</description>
+  </card>
+  <card>
+    <name>Odd</name>
+    <description>unusual, strange</description>
+  </card>
+  <card>
+    <name>Offensive</name>
+    <description>insulting, vulgar, attacking</description>
+  </card>
+  <card>
+    <name>Old</name>
+    <description>aged, elderly, antiquated</description>
+  </card>
+  <card>
+    <name>Old</name>
+    <description>not new, used</description>
+  </card>
+  <card>
+    <name>Old &amp; Cranky</name>
+    <description>crabby, cantankerous, aged</description>
+  </card>
+  <card>
+    <name>Old &amp; Wise</name>
+    <description>experienced, judicious, shrewd</description>
+  </card>
+  <card>
+    <name>On The Up &amp; Up</name>
+    <description>trustworthy, irreproachable, honest</description>
+  </card>
+  <card>
+    <name>Orderly</name>
+    <description>methodical, formal, systematic</description>
+  </card>
+  <card>
+    <name>Ordinary</name>
+    <description>usual, common, plain</description>
+  </card>
+  <card>
+    <name>Ordinary</name>
+    <description>normal, common</description>
+  </card>
+  <card>
+    <name>Organic</name>
+    <description>natural, clean, biological</description>
+  </card>
+  <card>
+    <name>Outrageous</name>
+    <description>shocking, scandalous, disgraceful</description>
+  </card>
+  <card>
+    <name>Overwhelming</name>
+    <description>exhaustive, breathtaking, monumental</description>
+  </card>
+  <card>
+    <name>Painful</name>
+    <description>hurtful, agonizing, unbearable</description>
+  </card>
+  <card>
+    <name>Painful</name>
+    <description>hurting, sore</description>
+  </card>
+  <card>
+    <name>Pale</name>
+    <description>faded, colorless</description>
+  </card>
+  <card>
+    <name>Pathetic</name>
+    <description>pitiful, distressing, heart-rending</description>
+  </card>
+  <card>
+    <name>Patriotic</name>
+    <description>nationalistic, loyal, public-spirited</description>
+  </card>
+  <card>
+    <name>Peaceful</name>
+    <description>serene, restful, calm</description>
+  </card>
+  <card>
+    <name>Peaceful</name>
+    <description>calm, quiet</description>
+  </card>
+  <card>
+    <name>Perfect</name>
+    <description>faultless, consummate, exact</description>
+  </card>
+  <card>
+    <name>Perfect</name>
+    <description>ideal, wonderful</description>
+  </card>
+  <card>
+    <name>Perverse</name>
+    <description>stubborn, obstinate, improper</description>
+  </card>
+  <card>
+    <name>Philosophical</name>
+    <description>thoughtful, contemplative, wise</description>
+  </card>
+  <card>
+    <name>Phony</name>
+    <description>false, artificial, imitation</description>
+  </card>
+  <card>
+    <name>Plain</name>
+    <description>simple, evident, ordinary</description>
+  </card>
+  <card>
+    <name>Plain</name>
+    <description>simple, dull</description>
+  </card>
+  <card>
+    <name>Plain &amp; Simple</name>
+    <description>unadorned, uncomplicated, clear</description>
+  </card>
+  <card>
+    <name>Playful</name>
+    <description>fun, frisky, entertaining</description>
+  </card>
+  <card>
+    <name>Playful</name>
+    <description>fun, cheerful</description>
+  </card>
+  <card>
+    <name>Pleasant</name>
+    <description>enjoyable, nice</description>
+  </card>
+  <card>
+    <name>Plug &amp; Play</name>
+    <description>effortless, automatic, self-operating</description>
+  </card>
+  <card>
+    <name>Plump &amp; Tender</name>
+    <description>ripe, chubby, fleshy</description>
+  </card>
+  <card>
+    <name>Polite</name>
+    <description>respectful, well-mannered</description>
+  </card>
+  <card>
+    <name>Poor</name>
+    <description>not rich, unfortunate</description>
+  </card>
+  <card>
+    <name>Popular</name>
+    <description>well-liked, accepted, preferred</description>
+  </card>
+  <card>
+    <name>Powerful</name>
+    <description>strong, forceful, robust</description>
+  </card>
+  <card>
+    <name>Powerful</name>
+    <description>strong, forceful</description>
+  </card>
+  <card>
+    <name>Practical</name>
+    <description>useful, helpful</description>
+  </card>
+  <card>
+    <name>Pretty</name>
+    <description>lovely, attractive, good-looking</description>
+  </card>
+  <card>
+    <name>Pretty</name>
+    <description>good-looking, pleasing</description>
+  </card>
+  <card>
+    <name>Prim &amp; Proper</name>
+    <description>reserved, modest, prudish</description>
+  </card>
+  <card>
+    <name>Primitive</name>
+    <description>prehistoric, primal, uncivilized</description>
+  </card>
+  <card>
+    <name>Principled</name>
+    <description>conscientious, ethical, scrupulous</description>
+  </card>
+  <card>
+    <name>Profound</name>
+    <description>deep, wise, thoughtful</description>
+  </card>
+  <card>
+    <name>Proud</name>
+    <description>dignified, satisfied</description>
+  </card>
+  <card>
+    <name>Puffy</name>
+    <description>swollen, billowy, bloated</description>
+  </card>
+  <card>
+    <name>Pure</name>
+    <description>innocent, unadulterated, chaste</description>
+  </card>
+  <card>
+    <name>Quick</name>
+    <description>fast, speedy</description>
+  </card>
+  <card>
+    <name>Quick &amp; Dirty</name>
+    <description>cheap, shoddy, inferior</description>
+  </card>
+  <card>
+    <name>Quiet</name>
+    <description>peaceful, silent, calm</description>
+  </card>
+  <card>
+    <name>Quiet</name>
+    <description>silent, noiseless</description>
+  </card>
+  <card>
+    <name>Radiant</name>
+    <description>shining, glowing, sparkling</description>
+  </card>
+  <card>
+    <name>Radical</name>
+    <description>unconventional, revolutionary, extreme</description>
+  </card>
+  <card>
+    <name>Rare</name>
+    <description>scarce, unusual, half-cooked</description>
+  </card>
+  <card>
+    <name>Raw</name>
+    <description>crude, uncooked, harsh</description>
+  </card>
+  <card>
+    <name>Realistic</name>
+    <description>authentic, lifelike, reasonable</description>
+  </card>
+  <card>
+    <name>Refreshing</name>
+    <description>brisk, invigorating, rejuvenating</description>
+  </card>
+  <card>
+    <name>Refined</name>
+    <description>well-bred, purified, cultivated</description>
+  </card>
+  <card>
+    <name>Relaxed</name>
+    <description>calm, not tense</description>
+  </card>
+  <card>
+    <name>Relaxing</name>
+    <description>restful, calming, peaceful</description>
+  </card>
+  <card>
+    <name>Repulsive</name>
+    <description>disgusting, offensive, foul</description>
+  </card>
+  <card>
+    <name>Respectable</name>
+    <description>worthy, honorable, decent</description>
+  </card>
+  <card>
+    <name>Responsible</name>
+    <description>accountable, obligated, mature</description>
+  </card>
+  <card>
+    <name>Revolutionary</name>
+    <description>innovative, rebellious, radical</description>
+  </card>
+  <card>
+    <name>Rich</name>
+    <description>wealthy, affluent, moneyed</description>
+  </card>
+  <card>
+    <name>Rich</name>
+    <description>wealthy, not poor</description>
+  </card>
+  <card>
+    <name>Ridiculous</name>
+    <description>preposterous, absurd, ludicrous</description>
+  </card>
+  <card>
+    <name>Risky</name>
+    <description>hazardous, daring, speculative</description>
+  </card>
+  <card>
+    <name>Rough</name>
+    <description>scratchy, uneven, jagged</description>
+  </card>
+  <card>
+    <name>Rough</name>
+    <description>not smooth, not gentle</description>
+  </card>
+  <card>
+    <name>Rough &amp; Ready</name>
+    <description>crude, makeshift, prepared</description>
+  </card>
+  <card>
+    <name>Round</name>
+    <description>circular, ring shaped</description>
+  </card>
+  <card>
+    <name>Sad</name>
+    <description>unhappy, gloomy</description>
+  </card>
+  <card>
+    <name>Saintly</name>
+    <description>virtuous, angelic, divine</description>
+  </card>
+  <card>
+    <name>Sappy</name>
+    <description>gooey, mushy, romantic</description>
+  </card>
+  <card>
+    <name>Scary</name>
+    <description>frightening, absurd, ugly</description>
+  </card>
+  <card>
+    <name>Scary</name>
+    <description>frightening, spooky</description>
+  </card>
+  <card>
+    <name>Scenic</name>
+    <description>picturesque, dramatic, panoramic</description>
+  </card>
+  <card>
+    <name>Scented</name>
+    <description>perfumed, fragrant</description>
+  </card>
+  <card>
+    <name>Secretive</name>
+    <description>concealed, covert, veiled</description>
+  </card>
+  <card>
+    <name>Selfish</name>
+    <description>stingy, greedy, miserly</description>
+  </card>
+  <card>
+    <name>Sensational</name>
+    <description>thrilling, startling, melodramatic</description>
+  </card>
+  <card>
+    <name>Senseless</name>
+    <description>meaningless, absurd, foolish</description>
+  </card>
+  <card>
+    <name>Sensitive</name>
+    <description>susceptible, sympathetic, tender</description>
+  </card>
+  <card>
+    <name>Sensual</name>
+    <description>tactile, pleasing, sexual</description>
+  </card>
+  <card>
+    <name>Serious</name>
+    <description>important, thoughtful</description>
+  </card>
+  <card>
+    <name>Sexy</name>
+    <description>arousing, appealing, seductive</description>
+  </card>
+  <card>
+    <name>Shaggy</name>
+    <description>bushy, stringy</description>
+  </card>
+  <card>
+    <name>Shallow</name>
+    <description>superficial, trivial, not deep</description>
+  </card>
+  <card>
+    <name>Sharp</name>
+    <description>pointed, keen, acute</description>
+  </card>
+  <card>
+    <name>Sharp</name>
+    <description>pointed, not rounded</description>
+  </card>
+  <card>
+    <name>Shiny</name>
+    <description>reflective, gleaming, polished</description>
+  </card>
+  <card>
+    <name>Shiny</name>
+    <description>bright, glossy</description>
+  </card>
+  <card>
+    <name>Shocking</name>
+    <description>frightening, electrifying, startling</description>
+  </card>
+  <card>
+    <name>Short</name>
+    <description>not long, not tall</description>
+  </card>
+  <card>
+    <name>Short &amp; Stout</name>
+    <description>plump, portly, tubby</description>
+  </card>
+  <card>
+    <name>Short &amp; Sweet</name>
+    <description>precise, clear-cut, succinct</description>
+  </card>
+  <card>
+    <name>Shy</name>
+    <description>bashful, timid, cautious</description>
+  </card>
+  <card>
+    <name>Shy</name>
+    <description>bashful, timid</description>
+  </card>
+  <card>
+    <name>Sick &amp; Tired</name>
+    <description>worn out, exhausted, exasperated</description>
+  </card>
+  <card>
+    <name>Sick &amp; Twisted</name>
+    <description>depraved, wicked, lascivious</description>
+  </card>
+  <card>
+    <name>Sickening</name>
+    <description>nauseating, disgusting, revolting</description>
+  </card>
+  <card>
+    <name>Sickening</name>
+    <description>disgusting, horrible</description>
+  </card>
+  <card>
+    <name>Silent</name>
+    <description>quiet, still</description>
+  </card>
+  <card>
+    <name>Silky</name>
+    <description>smooth, soft</description>
+  </card>
+  <card>
+    <name>Silly</name>
+    <description>goofy, absurd, nonsensical</description>
+  </card>
+  <card>
+    <name>Silly</name>
+    <description>foolish, goofy</description>
+  </card>
+  <card>
+    <name>Simple</name>
+    <description>plain, easy</description>
+  </card>
+  <card>
+    <name>Skillful</name>
+    <description>expert, talented</description>
+  </card>
+  <card>
+    <name>Skinny</name>
+    <description>thin, lean</description>
+  </card>
+  <card>
+    <name>Slender</name>
+    <description>slim, small</description>
+  </card>
+  <card>
+    <name>Slimy</name>
+    <description>slippery, gooey</description>
+  </card>
+  <card>
+    <name>Slippery</name>
+    <description>slick, sliding</description>
+  </card>
+  <card>
+    <name>Sloppy</name>
+    <description>messy, careless</description>
+  </card>
+  <card>
+    <name>Slow</name>
+    <description>not fast, pokey</description>
+  </card>
+  <card>
+    <name>Slow &amp; Steady</name>
+    <description>reliable, deliberate, ponderous</description>
+  </card>
+  <card>
+    <name>Sluggish</name>
+    <description>inactive, lazy, slothful</description>
+  </card>
+  <card>
+    <name>Small</name>
+    <description>little, not large</description>
+  </card>
+  <card>
+    <name>Smart</name>
+    <description>intelligent, stylish, witty</description>
+  </card>
+  <card>
+    <name>Smart</name>
+    <description>intelligent, clever</description>
+  </card>
+  <card>
+    <name>Smelly</name>
+    <description>stinky, odorous, rank</description>
+  </card>
+  <card>
+    <name>Smelly</name>
+    <description>stinky, bad odor</description>
+  </card>
+  <card>
+    <name>Smooth</name>
+    <description>even, level, flat</description>
+  </card>
+  <card>
+    <name>Smooth</name>
+    <description>not bumpy, flat</description>
+  </card>
+  <card>
+    <name>Smooth &amp; Creamy</name>
+    <description>silky, velvety, rich</description>
+  </card>
+  <card>
+    <name>Snappy</name>
+    <description>stylish, trendy, fast</description>
+  </card>
+  <card>
+    <name>Sneaky</name>
+    <description>tricky, mean</description>
+  </card>
+  <card>
+    <name>Soft</name>
+    <description>malleable, pliable, mushy</description>
+  </card>
+  <card>
+    <name>Soft</name>
+    <description>not hard, tender</description>
+  </card>
+  <card>
+    <name>Sophisticated</name>
+    <description>urbane, cosmopolitan, complex</description>
+  </card>
+  <card>
+    <name>Sour</name>
+    <description>bitter, tart</description>
+  </card>
+  <card>
+    <name>Special</name>
+    <description>distinctive, unique, original</description>
+  </card>
+  <card>
+    <name>Special</name>
+    <description>individual, unique</description>
+  </card>
+  <card>
+    <name>Speedy</name>
+    <description>quick, rapid, fast</description>
+  </card>
+  <card>
+    <name>Speedy</name>
+    <description>quick, fast</description>
+  </card>
+  <card>
+    <name>Spic &amp; Span</name>
+    <description>spotless, tidy, clean</description>
+  </card>
+  <card>
+    <name>Spicy</name>
+    <description>flavorable, tangy, hot</description>
+  </card>
+  <card>
+    <name>Spiritual</name>
+    <description>religious, inspired, supernatural</description>
+  </card>
+  <card>
+    <name>Spooky</name>
+    <description>scary, weird, ghostly</description>
+  </card>
+  <card>
+    <name>Spooky</name>
+    <description>scary, frightening</description>
+  </card>
+  <card>
+    <name>Sporty</name>
+    <description>athletic, active</description>
+  </card>
+  <card>
+    <name>Spotless</name>
+    <description>clean, pure</description>
+  </card>
+  <card>
+    <name>Spunky</name>
+    <description>perky, lively, spirited</description>
+  </card>
+  <card>
+    <name>Square</name>
+    <description>rectangular, uncool, dull</description>
+  </card>
+  <card>
+    <name>Squeaky Clean</name>
+    <description>pure, immaculate, unapproachable</description>
+  </card>
+  <card>
+    <name>Stereotyped</name>
+    <description>pigeonholed, caricatured, characterized</description>
+  </card>
+  <card>
+    <name>Sticky</name>
+    <description>gummy, pasty</description>
+  </card>
+  <card>
+    <name>Stinky</name>
+    <description>smelly, bad odor</description>
+  </card>
+  <card>
+    <name>Straight</name>
+    <description>not curved, direct</description>
+  </card>
+  <card>
+    <name>Strange</name>
+    <description>odd, unusual</description>
+  </card>
+  <card>
+    <name>Strong</name>
+    <description>powerful, forceful</description>
+  </card>
+  <card>
+    <name>Stunning</name>
+    <description>astonishing, staggering, astounding</description>
+  </card>
+  <card>
+    <name>Stupid</name>
+    <description>ignorant, unintelligent, inane</description>
+  </card>
+  <card>
+    <name>Sultry</name>
+    <description>sweltering, humid, sensual</description>
+  </card>
+  <card>
+    <name>Surprising</name>
+    <description>unexpected, amazing</description>
+  </card>
+  <card>
+    <name>Sweet</name>
+    <description>sugary, caring, good</description>
+  </card>
+  <card>
+    <name>Sweet</name>
+    <description>sugary, nice</description>
+  </card>
+  <card>
+    <name>Swift</name>
+    <description>quick, speedy, expeditious</description>
+  </card>
+  <card>
+    <name>Swift &amp; Sure</name>
+    <description>steady, prompt, definite</description>
+  </card>
+  <card>
+    <name>Talented</name>
+    <description>gifted, clever, skillful</description>
+  </card>
+  <card>
+    <name>Talented</name>
+    <description>skillful, gifted</description>
+  </card>
+  <card>
+    <name>Tall</name>
+    <description>not short, not low</description>
+  </card>
+  <card>
+    <name>Tame</name>
+    <description>subdued, gentle, trained</description>
+  </card>
+  <card>
+    <name>Tame</name>
+    <description>not wild, mild</description>
+  </card>
+  <card>
+    <name>Tasty</name>
+    <description>flavorful, savory, appetizing</description>
+  </card>
+  <card>
+    <name>Tasty</name>
+    <description>flavorful, yummy</description>
+  </card>
+  <card>
+    <name>Technological</name>
+    <description>scientific, futuristic, mechanical</description>
+  </card>
+  <card>
+    <name>Temperamental</name>
+    <description>moody, irritable, short-tempered</description>
+  </card>
+  <card>
+    <name>Tempting</name>
+    <description>seductive, enticing, alluring</description>
+  </card>
+  <card>
+    <name>Tender</name>
+    <description>soft, compassionate, fragile</description>
+  </card>
+  <card>
+    <name>Terrible</name>
+    <description>awful, dreadful</description>
+  </card>
+  <card>
+    <name>Terrific</name>
+    <description>sensational, fabulous, severe</description>
+  </card>
+  <card>
+    <name>Thick</name>
+    <description>wide, solid</description>
+  </card>
+  <card>
+    <name>Thick &amp; Chunky</name>
+    <description>bulky, heavy, lumpy</description>
+  </card>
+  <card>
+    <name>Thin</name>
+    <description>skinny, narrow</description>
+  </card>
+  <card>
+    <name>Thoughtful</name>
+    <description>caring, unselfish</description>
+  </card>
+  <card>
+    <name>Timeless</name>
+    <description>classic, ageless, well-established</description>
+  </card>
+  <card>
+    <name>Tiny</name>
+    <description>little, very small</description>
+  </card>
+  <card>
+    <name>Tormenting</name>
+    <description>torturing, harassing, agonizing</description>
+  </card>
+  <card>
+    <name>Torn &amp; Tattered</name>
+    <description>shabby, ragged, grungy</description>
+  </card>
+  <card>
+    <name>Touch &amp; Go</name>
+    <description>indecisive, uncertain, insecure</description>
+  </card>
+  <card>
+    <name>Touchy-Feely</name>
+    <description>affectionate, tactile, huggy</description>
+  </card>
+  <card>
+    <name>Tough</name>
+    <description>strong, firm, difficult</description>
+  </card>
+  <card>
+    <name>Tough</name>
+    <description>strong, hard</description>
+  </card>
+  <card>
+    <name>Trashy</name>
+    <description>shameless, nasty, indecent</description>
+  </card>
+  <card>
+    <name>Tried &amp; True</name>
+    <description>tested, proven, trustworthy</description>
+  </card>
+  <card>
+    <name>True &amp; Blue</name>
+    <description>loyal, faithful, patriotic</description>
+  </card>
+  <card>
+    <name>Trustworthy</name>
+    <description>honest, reliable, unfailing</description>
+  </card>
+  <card>
+    <name>Trustworthy</name>
+    <description>dependable, honest</description>
+  </card>
+  <card>
+    <name>Twisted</name>
+    <description>distorted, warped, perverted</description>
+  </card>
+  <card>
+    <name>Ugly</name>
+    <description>not pretty, unpleasant</description>
+  </card>
+  <card>
+    <name>Unbelievable</name>
+    <description>incredible, far-fetched, impossible [Party Set]</description>
+  </card>
+  <card>
+    <name>Unforgettable</name>
+    <description>notable, impressive, remarkable</description>
+  </card>
+  <card>
+    <name>Unforgettable</name>
+    <description>memorable, treasured</description>
+  </card>
+  <card>
+    <name>Unhappy</name>
+    <description>sad, sorrowful</description>
+  </card>
+  <card>
+    <name>Unhealthy</name>
+    <description>risky, sickly, dangerous</description>
+  </card>
+  <card>
+    <name>Unnatural</name>
+    <description>abnormal, artificial, bizarre</description>
+  </card>
+  <card>
+    <name>Unreal</name>
+    <description>imaginary, illusionary, unbelievable</description>
+  </card>
+  <card>
+    <name>Unscrupulous</name>
+    <description>unethical, corrupt, unprincipled</description>
+  </card>
+  <card>
+    <name>Unusual</name>
+    <description>rare, odd, uncommon</description>
+  </card>
+  <card>
+    <name>Untamed</name>
+    <description>wild, natural</description>
+  </card>
+  <card>
+    <name>Up &amp; Coming</name>
+    <description>promising, enterprising, gifted</description>
+  </card>
+  <card>
+    <name>Up &amp; Down</name>
+    <description>volatile, variable, vertical</description>
+  </card>
+  <card>
+    <name>Useful</name>
+    <description>helpful, handy</description>
+  </card>
+  <card>
+    <name>Useless</name>
+    <description>worthless, ineffective, unneeded</description>
+  </card>
+  <card>
+    <name>Useless</name>
+    <description>worthless, not valuable</description>
+  </card>
+  <card>
+    <name>Vain</name>
+    <description>conceited, arrogant, fruitless</description>
+  </card>
+  <card>
+    <name>Valuable</name>
+    <description>expensive, important</description>
+  </card>
+  <card>
+    <name>Violent</name>
+    <description>furious, vicious, destructive</description>
+  </card>
+  <card>
+    <name>Virtuous</name>
+    <description>worthy, righteous, chaste</description>
+  </card>
+  <card>
+    <name>Visionary</name>
+    <description>idealistic, prophetic, far-seeing</description>
+  </card>
+  <card>
+    <name>Warm</name>
+    <description>tepid, mild, affectionate</description>
+  </card>
+  <card>
+    <name>Warm</name>
+    <description>heated, somewhat hot</description>
+  </card>
+  <card>
+    <name>Warm &amp; Cozy</name>
+    <description>snug, comfy, friendly</description>
+  </card>
+  <card>
+    <name>Warm &amp; Fuzzy</name>
+    <description>kindhearted, loving, affectionate</description>
+  </card>
+  <card>
+    <name>Wash &amp; Wear</name>
+    <description>durable, easy-care, sturdy</description>
+  </card>
+  <card>
+    <name>Weak</name>
+    <description>not strong, sickly</description>
+  </card>
+  <card>
+    <name>Weird</name>
+    <description>abnormal, peculiar, odd</description>
+  </card>
+  <card>
+    <name>Weird</name>
+    <description>odd, mysterious</description>
+  </card>
+  <card>
+    <name>Wet</name>
+    <description>watery, soaked</description>
+  </card>
+  <card>
+    <name>Whimsical</name>
+    <description>humourous, peculiar, fanciful</description>
+  </card>
+  <card>
+    <name>Wicked</name>
+    <description>evil, corrupt, depraved</description>
+  </card>
+  <card>
+    <name>Wide</name>
+    <description>broad, thick</description>
+  </card>
+  <card>
+    <name>Wild</name>
+    <description>untamed, savage, ferocious</description>
+  </card>
+  <card>
+    <name>Wild</name>
+    <description>not tame, crazy</description>
+  </card>
+  <card>
+    <name>Wild &amp; Wooly</name>
+    <description>untamed, uncontrolled, reckless</description>
+  </card>
+  <card>
+    <name>Wired</name>
+    <description>strained, tense, nervous</description>
+  </card>
+  <card>
+    <name>Witty</name>
+    <description>clever, humorous, cunning</description>
+  </card>
+  <card>
+    <name>Woebegone</name>
+    <description>dismal, sorrowful, bummed out</description>
+  </card>
+  <card>
+    <name>Wonderful</name>
+    <description>great, excellent</description>
+  </card>
+  <card>
+    <name>Worldly</name>
+    <description>experienced, sophisticated, materialistic</description>
+  </card>
+  <card>
+    <name>Worthless</name>
+    <description>useless, meaningless</description>
+  </card>
+  <card>
+    <name>Young</name>
+    <description>not old, new</description>
+  </card>
+  <card>
+    <name>Young &amp; Restless</name>
+    <description>fidgety, impatient, flighty</description>
+  </card>
+  <card>
+    <name>Yucky</name>
+    <description>icky, sickening</description>
+  </card>
+  <card>
+    <name>Zany</name>
+    <description>crazy, funny, wacky</description>
+  </card>
+</cards>

@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
-    <string name="hello">Hello World, CardsAgainstHumanityActivity!</string>
-    <string name="app_name">CardsAgainstHumanity</string>
+    <string name="app_name">Apples</string>
+    <string name="game_status">Status:</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package ec.nem.cardsagainsthumanity.cards;
+package ec.nem.apples.cards;
 
 import android.app.Activity;
 import android.content.Context;
@@ -15,11 +15,11 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 	private final int SEND_THRESHOLD_VELOCITY;
 	
 	private Context context;
-	private PortraitCardView cardView;
+	private PortraitHandView cardView;
 	
-	public CardSwipeDetector(Context c, PortraitCardView portraitCardView){
+	public CardSwipeDetector(Context c, PortraitHandView portraitHandView){
 		context = c;
-		this.cardView = portraitCardView;
+		this.cardView = portraitHandView;
 		
 		ViewConfiguration vc = ViewConfiguration.get(c);
 		SWIPE_MIN_DISTANCE = vc.getScaledTouchSlop();
@@ -49,9 +49,9 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 		if(initial.getY() - current.getY() > SWIPE_MIN_DISTANCE && 
 				Math.abs(velocityX) > SEND_THRESHOLD_VELOCITY){
 			//Toast.makeText(context, "send card!", Toast.LENGTH_SHORT).show();
-			Card c = cardView.removeFirstCard();
+			CardView c = cardView.removeFirstCard();
 			Intent data = new Intent();
-			data.putExtra("chosen_card", new String[]{c.getTitle(), c.getText()});
+			data.putExtra("chosen_card", new String[]{c.getName(), c.getDescription()});
 			((Activity)context).setResult(Activity.RESULT_OK, data);
 			((Activity)context).finish();
 			return true;
@@ -62,7 +62,7 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 	@Override
 	public boolean onScroll(MotionEvent initial, MotionEvent current, float distanceX, float distanceY){
 		if(initial.getX() - current.getX() > SCROLL_MIN_DISTANCE){
-			PortraitCardView.moveCardRelative(cardView.frontCard(), -(int)distanceX, 0);
+			PortraitHandView.moveCardRelative(cardView.frontCard(), -(int)distanceX, 0);
 		}
 		return true;
 	}

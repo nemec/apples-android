@@ -1,9 +1,7 @@
-package ec.nem.cardsagainsthumanity.cards;
+package ec.nem.apples.cards;
 
-import java.util.ArrayList;
 import java.util.Deque;
 import java.util.LinkedList;
-import java.util.List;
 
 import android.content.Context;
 import android.graphics.Point;
@@ -14,11 +12,11 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
 import android.view.WindowManager;
-import ec.nem.cardsagainsthumanity.R;
+import ec.nem.apples.R;
 
-public class PortraitCardView extends CardView implements OnTouchListener{
+public class PortraitHandView extends HandView implements OnTouchListener{
 
-	Deque<Card> cardQueue;  // Front of queue is the back of the screen
+	Deque<CardView> cardQueue;  // Front of queue is the back of the screen
 	final int MAX_HAND_SIZE;
 	final int CARD_BORDER = 15;
 	public static Point FRONT_TOP_LEFT;
@@ -26,12 +24,12 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 	private GestureDetector cardSwipeDetector;
 
 	
-	public PortraitCardView(Context context) {
+	public PortraitHandView(Context context) {
 		super(context);
 		
 		cardSwipeDetector = new GestureDetector(new CardSwipeDetector(context, this));
 		
-		cardQueue = new LinkedList<Card>();
+		cardQueue = new LinkedList<CardView>();
 		MAX_HAND_SIZE = (int)getResources().getInteger(R.integer.max_hand_size);
 		
 		Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
@@ -48,17 +46,17 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 		this.setOnTouchListener(this);
 	}
 	
-	public Card[] getCards(){
-		return cardQueue.toArray(new Card[0]);
+	public CardView[] getCards(){
+		return cardQueue.toArray(new CardView[0]);
 	}
 	
-	public Card frontCard(){
+	public CardView frontCard(){
 		return cardQueue.peekLast();
 	}
 	
 	@Override
 	public void addCard(String title, String text){
-		Card l = new Card(getContext(), title, text);
+		CardView l = new CardView(getContext(), title, text);
 		int size = cardQueue.size();
 		if(size < MAX_HAND_SIZE){
 			cardQueue.addFirst(l);
@@ -70,8 +68,8 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 		flushZOrder();
 	}
 	
-	public Card removeFirstCard(){
-		Card v = cardQueue.pollLast();
+	public CardView removeFirstCard(){
+		CardView v = cardQueue.pollLast();
 		if(v != null){
 			shiftCardsForward();
 		}
@@ -79,16 +77,16 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 	}
 	
 	public void flushZOrder(){
-		for(Card c : cardQueue){
+		for(CardView c : cardQueue){
 			c.getView().bringToFront();
 		}
 	}
 	
-	public static void moveCardRelative(Card c, int x, int y){
+	public static void moveCardRelative(CardView c, int x, int y){
 		moveCardRelative(c, x, y, 500);
 	}
 	
-	public static void moveCardRelative(Card c, int x, int y, int duration){
+	public static void moveCardRelative(CardView c, int x, int y, int duration){
 		if(c != null){
 			/*TranslateAnimation anim = new TranslateAnimation(0, x, 0, y);
 			anim.setDuration(duration);
@@ -103,11 +101,11 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 		}
 	}
 	
-	public static void moveCardAbsolute(Card c, int x, int y){
+	public static void moveCardAbsolute(CardView c, int x, int y){
 		moveCardAbsolute(c, x, y, 500);
 	}
 	
-	public static void moveCardAbsolute(Card c, int x, int y, int duration){
+	public static void moveCardAbsolute(CardView c, int x, int y, int duration){
 		if(c != null){
 			/*TranslateAnimation anim = new TranslateAnimation(0, x, 0, y);
 			anim.setDuration(duration);
@@ -123,7 +121,7 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 	}
 	
 	public void shiftCardsForward(){
-		Card back = cardQueue.pollLast();
+		CardView back = cardQueue.pollLast();
 		if(back != null){
 			shiftCards(back, CARD_BORDER);
 		}
@@ -132,8 +130,8 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 	}
 	
 	public void shiftCardsBackward(){
-		//Card back = cardQueue.pollLast();
-		Card front = cardQueue.pollFirst();
+		//CardView back = cardQueue.pollLast();
+		CardView front = cardQueue.pollFirst();
 		if(front != null){
 			shiftCards(front, -CARD_BORDER);
 			moveCardRelative(front, CARD_BORDER, CARD_BORDER);
@@ -142,8 +140,8 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 		flushZOrder();
 	}
 	
-	private void shiftCards(Card extra, int distance){
-		for(Card v : cardQueue){
+	private void shiftCards(CardView extra, int distance){
+		for(CardView v : cardQueue){
 			moveCardRelative(v, distance, distance);
 		}
 		
@@ -160,7 +158,7 @@ public class PortraitCardView extends CardView implements OnTouchListener{
 		if(!handled &&
 			(event.getAction() == MotionEvent.ACTION_CANCEL ||
 			event.getAction() == MotionEvent.ACTION_UP)){
-			PortraitCardView.moveCardAbsolute(cardQueue.peekLast(),
+			PortraitHandView.moveCardAbsolute(cardQueue.peekLast(),
 					FRONT_TOP_LEFT.x, FRONT_TOP_LEFT.y);
 			return true;
 		}
