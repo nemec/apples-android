@@ -1,6 +1,9 @@
 package ec.nem.apples.generic;
 
-public class Card{
+import java.io.Serializable;
+
+public class Card implements Serializable{
+	private static final long serialVersionUID = 5832564091321470516L;
 	private String word;
 	private String description;
 	
@@ -39,10 +42,13 @@ public class Card{
 	}
 	
 	public boolean equals(Object c){
-		if(!(c instanceof Card)){
-			return false;
+		if(c instanceof String){
+			return word == (String)c;
 		}
-		return word.equals(((Card)c).word);
+		else if(c instanceof Card){
+			return word.equals(((Card)c).word);
+		}
+		return false;
 	}
 	
 	public int hashCode(){

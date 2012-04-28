@@ -5,6 +5,7 @@ import java.util.LinkedList;
 
 import android.content.Context;
 import android.graphics.Point;
+import android.util.AttributeSet;
 import android.util.Log;
 import android.view.Display;
 import android.view.GestureDetector;
@@ -17,7 +18,7 @@ import ec.nem.apples.R;
 public class PortraitHandView extends HandView implements OnTouchListener{
 
 	Deque<CardView> cardQueue;  // Front of queue is the back of the screen
-	final int MAX_HAND_SIZE;
+	int MAX_HAND_SIZE;
 	final int CARD_BORDER = 15;
 	public static Point FRONT_TOP_LEFT;
 	
@@ -26,14 +27,26 @@ public class PortraitHandView extends HandView implements OnTouchListener{
 	
 	public PortraitHandView(Context context) {
 		super(context);
-		
-		cardSwipeDetector = new GestureDetector(new CardSwipeDetector(context, this));
+		init(context);
+	}
+	
+	public PortraitHandView(Context context, AttributeSet attrs){
+        super(context, attrs);
+        init(context);
+    }
+    
+    public PortraitHandView(Context context, AttributeSet attrs, int defStyle) {
+        super(context, attrs, defStyle);
+        init(context);
+    }
+    
+    private void init(Context context){
+    	cardSwipeDetector = new GestureDetector(new CardSwipeDetector(context, this));
 		
 		cardQueue = new LinkedList<CardView>();
 		MAX_HAND_SIZE = (int)getResources().getInteger(R.integer.max_hand_size);
 		
-		Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
-		Log.d("a", display.getWidth() + " " + display.getHeight());
+		//Display display = ((WindowManager) context.getSystemService(Context.WINDOW_SERVICE)).getDefaultDisplay();
 		FRONT_TOP_LEFT = new Point(
 				CARD_BORDER * (MAX_HAND_SIZE + 3),
 				CARD_BORDER * (MAX_HAND_SIZE + 1));//display.getWidth() / 2, display.getHeight() / 2);
@@ -44,7 +57,7 @@ public class PortraitHandView extends HandView implements OnTouchListener{
 		setLayoutParams(p);
 		
 		this.setOnTouchListener(this);
-	}
+    }
 	
 	public CardView[] getCards(){
 		return cardQueue.toArray(new CardView[0]);

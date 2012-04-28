@@ -49,6 +49,7 @@ public class MainActivity extends Activity {
     
     @Override
     public void onDestroy(){
+    	super.onDestroy();
     	// Make sure the service is stopped when the app is destroyed
     	Intent serviceIntent = new Intent(this, BluetoothNodeService.class); 
     	stopService(serviceIntent);

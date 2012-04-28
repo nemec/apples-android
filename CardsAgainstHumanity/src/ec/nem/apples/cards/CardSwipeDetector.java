@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.view.GestureDetector.SimpleOnGestureListener;
 import android.view.MotionEvent;
 import android.view.ViewConfiguration;
+import ec.nem.apples.generic.Card;
 
 public class CardSwipeDetector extends SimpleOnGestureListener {
 	private static final String TAG = "CardSwipeDetector"; 
@@ -51,7 +52,7 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 			//Toast.makeText(context, "send card!", Toast.LENGTH_SHORT).show();
 			CardView c = cardView.removeFirstCard();
 			Intent data = new Intent();
-			data.putExtra("chosen_card", new String[]{c.getName(), c.getDescription()});
+			data.putExtra("chosen_card", new Card(c.getName(), c.getDescription()));
 			((Activity)context).setResult(Activity.RESULT_OK, data);
 			((Activity)context).finish();
 			return true;

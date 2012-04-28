@@ -26,6 +26,8 @@
         
         <service android:name="ec.nem.bluenet.BluetoothNodeService" />
         <activity android:name="ec.nem.bluenet.BuildNetworkActivity" />
+        <activity android:name=".DealerActivity"></activity>
+        <activity android:name=".OutcomeActivity"></activity>
 	</application>
 
 </manifest>
