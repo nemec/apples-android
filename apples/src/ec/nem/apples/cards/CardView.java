@@ -4,6 +4,7 @@ import java.io.Serializable;
 
 import android.app.Activity;
 import android.content.Context;
+import android.util.DisplayMetrics;
 import android.view.View;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
@@ -22,6 +23,10 @@ public class CardView implements Serializable{
 		view = (RelativeLayout)((Activity)context).getLayoutInflater().inflate(R.layout.cardview, null);
 		((TextView)view.findViewById(R.id.title)).setText(title);
 		((TextView)view.findViewById(R.id.text)).setText(text);
+		DisplayMetrics metrics = context.getResources().getDisplayMetrics();
+		RelativeLayout.LayoutParams params = new RelativeLayout.LayoutParams(
+				(int)(metrics.density * 200), (int)(metrics.density * 300));
+		view.setLayoutParams(params);
 	}
 	
 	public String getName(){

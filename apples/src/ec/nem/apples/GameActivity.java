@@ -46,7 +46,7 @@ public class GameActivity extends Activity implements MessageListener {
 	
 	private Integer seed = null;
 	private Integer currentPlayerIx = 0; 
-	private List<String> playerOrder = null;
+	private ArrayList<String> playerOrder = null;
 	private ArrayList<Card> hand = null;
 	
 	@Override
@@ -145,9 +145,6 @@ public class GameActivity extends Activity implements MessageListener {
 
 	@Override
 	public void onMessageReceived(Message message) {
-		Log.v(TAG, "Message received from " + 
-				message.getTransmitterName() + 
-				": " + message.getText());
 		if(message.getText().equals(SEED_KEY)){
 			synchronized (seedMap) {
 				seedMap.put(message.getTransmitterName(), (Integer)message.getData());
@@ -189,6 +186,7 @@ public class GameActivity extends Activity implements MessageListener {
 		if(playerOrder.get(currentPlayerIx) == connectionService.getUsername()){
 			Intent intent = new Intent(GameActivity.this, DealerActivity.class);
 			intent.putExtra(DealerActivity.EXTRA_ADJECTIVE, adj);
+			intent.putExtra(DealerActivity.EXTRA_PLAYERS, playerOrder);
 			startActivityForResult(intent, DEALER_RESULT);
 		}
 		else {
@@ -217,7 +215,6 @@ public class GameActivity extends Activity implements MessageListener {
 		@Override
 		protected Integer doInBackground(Void... params) {
 			for(int x=0; x<6;x++){
-				Log.v(TAG, "Sending seed.");
 		    	connectionService.broadcastMessage("seed",
 					seedMap.get(connectionService.getUsername()));
 		    	try {
@@ -231,10 +228,10 @@ public class GameActivity extends Activity implements MessageListener {
 		protected void onPostExecute(Integer result){
 			setStatus("Connected to " + result + " users.");
 			
-			Log.d(TAG, "Playing users: "+seedMap.size());
+			/*Log.d(TAG, "Playing users: "+seedMap.size());
 		    for(String s: seedMap.keySet()){
 		    	Log.d(TAG, s);
-		    }
+		    }*/
 		    buildPlayerList();
 		    dealCards();
 		    startTurn();

@@ -15,7 +15,7 @@
         android:layout_marginTop="5dp"/>
     
     <TextView
-        android:id="@+id/adjective"
+        android:id="@+id/adj"
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:text=""
@@ -23,5 +23,13 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:gravity="center_horizontal"
         android:layout_marginTop="5dp"/>
+    
+    <ListView
+        android:id="@+id/submitted_cards"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/adj"
+        android:layout_weight="1" >
+    </ListView>
 
 </RelativeLayout>

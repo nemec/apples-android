@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/outcomeframe"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+    
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:orientation="vertical" >
+        
+        <TextView
+	        android:id="@+id/instructions"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Waiting for winner..."
+	        android:textAppearance="?android:attr/textAppearanceLarge"
+	        android:background="@drawable/headerborder"
+	        android:gravity="center_horizontal"
+	        android:layout_marginTop="5dp"/>
+	
+	    <ProgressBar
+	        android:id="@+id/progress"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:indeterminate="true"
+	        android:indeterminateOnly="true"
+	        android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+</FrameLayout>

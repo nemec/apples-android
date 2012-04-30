@@ -6,13 +6,14 @@ import java.util.LinkedList;
 import android.content.Context;
 import android.graphics.Point;
 import android.util.AttributeSet;
-import android.util.Log;
-import android.view.Display;
 import android.view.GestureDetector;
 import android.view.MotionEvent;
 import android.view.View;
 import android.view.View.OnTouchListener;
-import android.view.WindowManager;
+import android.view.animation.Animation;
+import android.view.animation.Animation.AnimationListener;
+import android.view.animation.TranslateAnimation;
+import android.widget.RelativeLayout;
 import ec.nem.apples.R;
 
 public class PortraitHandView extends HandView implements OnTouchListener{
@@ -51,7 +52,7 @@ public class PortraitHandView extends HandView implements OnTouchListener{
 				CARD_BORDER * (MAX_HAND_SIZE + 3),
 				CARD_BORDER * (MAX_HAND_SIZE + 1));//display.getWidth() / 2, display.getHeight() / 2);
 		
-		LayoutParams p = (LayoutParams) generateDefaultLayoutParams();
+		RelativeLayout.LayoutParams p = (RelativeLayout.LayoutParams) generateDefaultLayoutParams();
 		p.width = LayoutParams.FILL_PARENT;
 		p.height = LayoutParams.FILL_PARENT;
 		setLayoutParams(p);
@@ -101,35 +102,52 @@ public class PortraitHandView extends HandView implements OnTouchListener{
 	
 	public static void moveCardRelative(CardView c, int x, int y, int duration){
 		if(c != null){
-			/*TranslateAnimation anim = new TranslateAnimation(0, x, 0, y);
-			anim.setDuration(duration);
-			anim.setFillAfter(false);
-			c.startAnimation(anim);*/
-		
 			LayoutParams params;
 			params = (LayoutParams)c.getView().getLayoutParams();
-			params.leftMargin += x;
-			params.topMargin += y;
-			c.getView().setLayoutParams(params);
+			x += params.leftMargin;
+			y += params.topMargin;
+			moveCardAbsolute(c, x, y);
 		}
 	}
 	
 	public static void moveCardAbsolute(CardView c, int x, int y){
-		moveCardAbsolute(c, x, y, 500);
+		moveCardAbsolute(c, x, y, 0);
 	}
 	
-	public static void moveCardAbsolute(CardView c, int x, int y, int duration){
+	public static void moveCardAbsolute(final CardView c, final int x, final int y, int duration){
 		if(c != null){
-			/*TranslateAnimation anim = new TranslateAnimation(0, x, 0, y);
-			anim.setDuration(duration);
-			anim.setFillAfter(false);
-			c.startAnimation(anim);*/
-			
-			LayoutParams params;
-			params = (LayoutParams)c.getView().getLayoutParams();
-			params.leftMargin = x;
-			params.topMargin = y;
-			c.getView().setLayoutParams(params);
+			if(duration > 0){
+				TranslateAnimation anim = new TranslateAnimation(0, x, 0, y);
+				anim.setDuration(duration);
+				anim.setFillAfter(true);
+				c.getView().startAnimation(anim);
+				anim.setAnimationListener(new AnimationListener() {
+					
+					@Override
+					public void onAnimationEnd(Animation animation) {
+						LayoutParams params;
+						params = (LayoutParams)c.getView().getLayoutParams();
+						params.leftMargin = x;
+						params.topMargin = y;
+						c.getView().setLayoutParams(params);
+					}
+	
+					@Override
+					public void onAnimationRepeat(Animation animation) {
+					}
+	
+					@Override
+					public void onAnimationStart(Animation animation) {
+					}
+				});
+			}
+			else{
+				LayoutParams params;
+				params = (LayoutParams)c.getView().getLayoutParams();
+				params.leftMargin = x;
+				params.topMargin = y;
+				c.getView().setLayoutParams(params);
+			}
 		}
 	}
 	
@@ -138,17 +156,26 @@ public class PortraitHandView extends HandView implements OnTouchListener{
 		if(back != null){
 			shiftCards(back, CARD_BORDER);
 		}
+		// Animate card behind
+		LayoutParams params;
+		params = (LayoutParams)back.getView().getLayoutParams();
+		TranslateAnimation anim = new TranslateAnimation(
+				-(params.leftMargin + params.width), 0, 0, 0);
+		anim.setDuration(300);
+		anim.setFillAfter(false);
+		back.getView().startAnimation(anim);
+		
 		cardQueue.addFirst(back);
 		flushZOrder();
 	}
 	
-	public void shiftCardsBackward(){
-		//CardView back = cardQueue.pollLast();
+	public void shiftCardsBackward(){		
 		CardView front = cardQueue.pollFirst();
 		if(front != null){
 			shiftCards(front, -CARD_BORDER);
 			moveCardRelative(front, CARD_BORDER, CARD_BORDER);
 		}
+		
 		cardQueue.addLast(front);
 		flushZOrder();
 	}
