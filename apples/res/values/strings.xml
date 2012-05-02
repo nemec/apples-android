@@ -2,5 +2,6 @@
 <resources>
     <string name="app_name">Apples</string>
     <string name="game_status">Status:</string>
+    <string name="player_count_label">Connected Players:</string>
 
 </resources>

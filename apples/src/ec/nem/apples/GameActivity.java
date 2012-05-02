@@ -4,21 +4,26 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 import java.util.Random;
 import java.util.SortedSet;
 import java.util.TreeSet;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.content.ComponentName;
 import android.content.Context;
+import android.content.DialogInterface;
+import android.content.DialogInterface.OnClickListener;
 import android.content.Intent;
 import android.content.ServiceConnection;
 import android.os.AsyncTask;
 import android.os.Bundle;
+import android.os.Handler;
 import android.os.IBinder;
 import android.util.Log;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import ec.nem.apples.generic.Card;
 import ec.nem.apples.generic.Deck;
@@ -44,6 +49,9 @@ public class GameActivity extends Activity implements MessageListener {
 	private Deck nounDeck;
 	private Map<String, Integer> seedMap;
 	
+	private boolean continueGame = false;
+	private Handler uiHandler;
+	
 	private Integer seed = null;
 	private Integer currentPlayerIx = 0; 
 	private ArrayList<String> playerOrder = null;
@@ -53,6 +61,16 @@ public class GameActivity extends Activity implements MessageListener {
 	public void onCreate(Bundle savedInstanceState) {
 	    super.onCreate(savedInstanceState);
 	    setContentView(R.layout.gameview);
+	    
+	    uiHandler = new Handler();
+	    
+	    Button cont = (Button)findViewById(R.id.startButton);
+	    cont.setOnClickListener(new View.OnClickListener() {
+	    	@Override
+			public void onClick(View v) {
+				continueGame = true;
+			}
+		});
 	    
 	    MAX_HAND_SIZE = (int)getResources().getInteger(R.integer.max_hand_size);
 	    
@@ -125,7 +143,12 @@ public class GameActivity extends Activity implements MessageListener {
 		else if(requestCode == PLAYER_RESULT){
 			if(resultCode == RESULT_OK){
 				Card chosen = (Card)data.getExtras().getSerializable("chosen_card");
-				connectionService.broadcastMessage("card", chosen);
+				if(boundToService){
+					connectionService.broadcastMessage("card", chosen);
+				}
+				else {
+					Log.e(TAG, "Tried to send card but not bound to service.");
+				}
 				Intent intent = new Intent(GameActivity.this, OutcomeActivity.class);
 				startActivityForResult(intent, OUTCOME_RESULT);
 			}
@@ -148,6 +171,14 @@ public class GameActivity extends Activity implements MessageListener {
 		if(message.getText().equals(SEED_KEY)){
 			synchronized (seedMap) {
 				seedMap.put(message.getTransmitterName(), (Integer)message.getData());
+				final TextView playerCount = (TextView)findViewById(R.id.playerCount);
+				uiHandler.post(new Runnable() {
+					@Override
+					public void run() {
+						Log.d(TAG, "Updating player count... " + seedMap.size());
+						playerCount.setText(""+seedMap.size());
+					}
+				});
 			}
 		}
 	}
@@ -214,11 +245,11 @@ public class GameActivity extends Activity implements MessageListener {
 
 		@Override
 		protected Integer doInBackground(Void... params) {
-			for(int x=0; x<6;x++){
+			while(!continueGame){
 		    	connectionService.broadcastMessage("seed",
 					seedMap.get(connectionService.getUsername()));
 		    	try {
-					Thread.sleep(5000);
+					Thread.sleep(2500);
 				} catch (InterruptedException e) {
 				}
 		    }
@@ -233,8 +264,24 @@ public class GameActivity extends Activity implements MessageListener {
 		    	Log.d(TAG, s);
 		    }*/
 		    buildPlayerList();
-		    dealCards();
-		    startTurn();
+		    if(playerOrder.size() < 2){
+		    	// Network failed.
+				AlertDialog.Builder builder = new AlertDialog.Builder(GameActivity.this);
+				builder.setMessage("Error: We're the only person playing the game.")
+			       .setCancelable(false)
+			       .setNeutralButton("OK", new OnClickListener() {
+						@Override
+						public void onClick(DialogInterface dialog, int which) {
+							finish();
+						}
+				});
+				AlertDialog alert = builder.create();
+				alert.show();
+		    }
+		    else{
+			    dealCards();
+			    startTurn();
+		    }
 		}
 	}
 
