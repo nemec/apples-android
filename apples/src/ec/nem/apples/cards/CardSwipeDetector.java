@@ -33,14 +33,12 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 		if(Math.abs(velocityX) > Math.abs(velocityY)){
 			// Go to the next card
 			if(initial.getX() - current.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY){
-		    	//Toast.makeText(context, "to next card!", Toast.LENGTH_SHORT).show();
 		    	cardView.shiftCardsForward();
 				return true;
 			}
 			
 			// Go to the previous card
 			else if(current.getX() - initial.getX() > SWIPE_MIN_DISTANCE && Math.abs(velocityX) > SWIPE_THRESHOLD_VELOCITY){
-				//Toast.makeText(context, "to previous card!", Toast.LENGTH_SHORT).show();
 				cardView.shiftCardsBackward();
 				return true;
 			}
@@ -49,7 +47,6 @@ public class CardSwipeDetector extends SimpleOnGestureListener {
 		// Send card to host
 		if(initial.getY() - current.getY() > SWIPE_MIN_DISTANCE && 
 				Math.abs(velocityX) > SEND_THRESHOLD_VELOCITY){
-			//Toast.makeText(context, "send card!", Toast.LENGTH_SHORT).show();
 			CardView c = cardView.removeFirstCard();
 			Intent data = new Intent();
 			data.putExtra("chosen_card", new Card(c.getName(), c.getDescription()));

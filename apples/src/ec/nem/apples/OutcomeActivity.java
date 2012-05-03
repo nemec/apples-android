@@ -8,7 +8,9 @@ import android.content.ServiceConnection;
 import android.os.Bundle;
 import android.os.Handler;
 import android.os.IBinder;
-import android.util.Log;
+import android.view.View;
+import android.view.View.OnClickListener;
+import android.widget.Button;
 import android.widget.FrameLayout;
 import ec.nem.bluenet.BluetoothNodeService;
 import ec.nem.bluenet.BluetoothNodeService.LocalBinder;
@@ -62,25 +64,31 @@ public class OutcomeActivity extends Activity implements MessageListener {
 	public void onMessageReceived(Message message) {
 		if(message.getText().equals("winner")){
 			final FrameLayout frame = (FrameLayout)findViewById(R.id.outcomeframe);
+			int layout;
 			if(message.getData().equals(
 					connectionService.getUsername())){
-				uiHandler.post(new Runnable() {
-					@Override
-					public void run() {
-						frame.removeAllViews();
-						getLayoutInflater().inflate(R.layout.winner, frame);
-					}
-				});
+				layout = R.layout.winner;
 			}
 			else {
-				uiHandler.post(new Runnable() {
-					@Override
-					public void run() {
-						frame.removeAllViews();
-						getLayoutInflater().inflate(R.layout.loser, frame);
-					}
-				});
+				layout = R.layout.loser;
 			}
+			
+			uiHandler.post(new Runnable() {
+				@Override
+				public void run() {
+					frame.removeAllViews();
+					View inner = getLayoutInflater().inflate(R.layout.winner, frame);
+					Button b = (Button)inner.findViewById(R.id.playAgain);
+					b.setOnClickListener(new OnClickListener() {
+						
+						@Override
+						public void onClick(View arg0) {
+							setResult(RESULT_OK);
+							finish();
+						}
+					});
+				}
+			});
 		}
 		
 	}

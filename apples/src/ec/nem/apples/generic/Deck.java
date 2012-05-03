@@ -26,6 +26,11 @@ public class Deck {
 		Collections.shuffle(cards, rand);
 	}
 	
+	public void shuffleDeck(Random rand){
+		this.rand = rand;
+		shuffleDeck();
+	}
+	
 	public void shuffleDeck(long seed){
 		rand = new Random(seed);
 		shuffleDeck();

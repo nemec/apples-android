@@ -52,8 +52,7 @@ public class GameActivity extends Activity implements MessageListener {
 	private boolean continueGame = false;
 	private Handler uiHandler;
 	
-	private Integer seed = null;
-	private Integer currentPlayerIx = 0; 
+	private Random seed = null;
 	private ArrayList<String> playerOrder = null;
 	private ArrayList<Card> hand = null;
 	
@@ -132,17 +131,10 @@ public class GameActivity extends Activity implements MessageListener {
     }
 
 	protected void onActivityResult(int requestCode, int resultCode, Intent data){
-		if(requestCode == DEALER_RESULT){
-			if(resultCode == RESULT_OK){
-				Log.d(TAG, "DEALER");
-			}
-			else{
-				Log.d(TAG, "dealer failed");
-			}
-		}
-		else if(requestCode == PLAYER_RESULT){
+		if(requestCode == PLAYER_RESULT){
 			if(resultCode == RESULT_OK){
 				Card chosen = (Card)data.getExtras().getSerializable("chosen_card");
+				hand.remove(chosen);
 				if(boundToService){
 					connectionService.broadcastMessage("card", chosen);
 				}
@@ -152,16 +144,19 @@ public class GameActivity extends Activity implements MessageListener {
 				Intent intent = new Intent(GameActivity.this, OutcomeActivity.class);
 				startActivityForResult(intent, OUTCOME_RESULT);
 			}
-			else{
-				Log.d(TAG, "choose card failed");
-			}
 		}
-		else if(requestCode == OUTCOME_RESULT){
+		else if(requestCode == DEALER_RESULT || 
+				requestCode == OUTCOME_RESULT){
 			if(resultCode == RESULT_OK){
-				Log.d(TAG, "outcome");
-			}
-			else{
-				Log.d(TAG, "outcome failed");
+				// Skip dealer
+				for(int x=1; x < playerOrder.size(); x++){
+					Card c = nounDeck.remove();
+					if(playerOrder.get(x).equals(connectionService.getUsername())){
+						hand.add(c);
+					}
+				}
+				Collections.shuffle(playerOrder, seed);
+				startTurn();
 			}
 		}
 	}
@@ -184,18 +179,10 @@ public class GameActivity extends Activity implements MessageListener {
 	}
 	
 	private void buildPlayerList(){
-		seed = Collections.max(seedMap.values());
+		seed = new Random(Collections.max(seedMap.values()));
 		for(Map.Entry<String, Integer> entry : entriesSortedByValues(seedMap)){
 			playerOrder.add(entry.getKey());
 		}
-	}
-	
-	private ArrayList<Card> drawCards(int numCards){
-		ArrayList<Card> cards = new ArrayList<Card>();
-		for(int y=0; y < numCards; y++){
-			cards.add(nounDeck.remove());
-		}
-		return cards;
 	}
 	
 	private void dealCards(){
@@ -203,18 +190,20 @@ public class GameActivity extends Activity implements MessageListener {
 		adjDeck.shuffleDeck(seed);
 		
 		for(int x=0; x < playerOrder.size(); x++){
-			if(playerOrder.get(x).equals(connectionService.getUsername())){
-				hand.addAll(drawCards(MAX_HAND_SIZE));
+			ArrayList<Card> cards = new ArrayList<Card>();
+			for(int y=0; y < MAX_HAND_SIZE; y++){
+				cards.add(nounDeck.remove());
 			}
-			else{
-				drawCards(MAX_HAND_SIZE);
+			if(playerOrder.get(x).equals(connectionService.getUsername())){
+				hand.addAll(cards);
 			}
 		}
 	}
 	
 	private void startTurn(){
 		Card adj = adjDeck.remove();
-		if(playerOrder.get(currentPlayerIx) == connectionService.getUsername()){
+		// "First" player is always the dealer
+		if(playerOrder.get(0) == connectionService.getUsername()){
 			Intent intent = new Intent(GameActivity.this, DealerActivity.class);
 			intent.putExtra(DealerActivity.EXTRA_ADJECTIVE, adj);
 			intent.putExtra(DealerActivity.EXTRA_PLAYERS, playerOrder);

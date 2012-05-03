@@ -75,4 +75,11 @@ public class MainActivity extends Activity {
 			}
 		}
 	}
+    
+    @Override
+    public void onBackPressed() {
+    	super.onBackPressed();
+    	Intent serviceIntent = new Intent(this, BluetoothNodeService.class); 
+    	stopService(serviceIntent);
+    }
 }
